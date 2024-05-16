@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+}
+.background{
+    background-image: url("images/ferks-guare-KEZdWfYD-ow-unsplash\ 1.png");
+    background-repeat: no-repeat;
+    color: white;
+    background-size: cover;
+    width: 100%;
+}
+.para1{
+    color: #FFF;
+    font-family: 'Smythe', cursive;
+    font-size: 25px;
+    font-style: normal; 
+    font-weight: 400;
+    line-height: 24px; /* 61.538% */
+    padding: 50px 0px 15px 80px;
+}
+.para2{
+    color: #FFF;
+    font-family: 'Smythe', cursive;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 13.798px; /* 61.538% */
+    padding: 0px 0px 50px 80px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+
+}
+.img{
+    width: 30px;
+}
+.item-heading{
+    color: #000;
+    font-family: 'Smythe', cursive;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 60% */
+}
+.item-ingredient{
+    width: 358px;
+    color: #8B8B8B;
+    font-family: 'Smythe', cursive;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.item-price{
+    color: #000;
+    font-family: 'Smythe', cursive;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+}
+.image{
+    width: 60px;
+}
+.divider{
+    margin: 30px auto;
+    width: 504px;
+    /* height: 1px; */
+    background: #D2D2D2;
+
+}
+.flex1{
+    margin: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.order-heading{
+    color: #000;
+    font-family: 'Smythe', cursive;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 60% */  
+    text-align: center;
+}
+.add-el{
+    margin: 0;
+    color: #000;
+    font-family: 'Smythe', cursive;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 60% */
+}
+.add-pr{
+    color: #000;
+    text-align: right;
+    font-family: 'Smythe', cursive;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+}
+.divi{
+    width: 480px;
+    margin: 10px auto;
+    color: #393333;
+}
+.checkout{
+    display: none;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin:0px 150px;
+}
+.btn{
+    margin: 20px auto;
+    width: 502px;
+    padding: 3px;
+    background: #16DB99;
+    border: none;
+    color: var(--white, #FFF);
+    font-family: Verdana;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 10px;
+    line-height: 24px; /* 150% */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+.span{
+    margin: 0;
+    padding-left: 10px;
+    color: #BBB;
+    font-family: Verdana;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 200% */
+}
+.flex2{
+    display: flex;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 20px;
+    gap: 10px;
+}
+.card{
+    display: none;
+    position: relative;
+    bottom: 510px;
+    text-align: center;
+    width: 310px;
+    height: 270px;
+    border: 1px solid black;
+    margin: 0 auto;
+    border-radius: 3.89px;
+    background: #FFF;
+}
+input{
+    border-radius: 3.89px;
+    border: 1px solid #757575;
+    padding: 5px;
+    color: #757575;
+    font-family: Verdana;  
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.119px; /* 155.596% */
+}
+.card-heading{
+    color: #000;
+    font-family: Verdana;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 7px 0px;
+    line-height: 31.119px; /* 129.664% */
+}
+.btn-pay{
+    border-radius: 3.89px;
+    background: #16DB99;
+    padding: 5px;
+    border: none;
+    color: var(--white, #FFF);
+    font-family: Verdana;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.119px; /* 155.596% */
+    margin-top: 7px;
+}
+.lastMessege{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 70px;
+    width: 504px;
+    height: 80px;
+    border-radius: 3px;
+    background: #ECFDF5;
+    color: #065F46;
+    font-family: Smythe;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 52.5% */
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        margin: 20px 0px;
+        justify-content: left;
+        gap: 3px;
+    }
+    .para1{
+        padding: 15px 0px 0px 15px;
+        font-size: 13px;
+    }
+    .para2{
+        font-size: 12px;
+        padding: 0px 0px 7px 15px;
+    }
+    .background{
+        background-size: 365px;
+        
+    }
+    .divider{
+        margin: 0;
+        width: 300px;
+    }
+    .image{
+        width: 40px;
+    }
+    .item-heading{
+        font-size: 14px;
+    }
+    .item-ingredient{
+        line-height: 10px;
+    }
+    .item-price{
+        font-size: 13px;
+    }
+  }

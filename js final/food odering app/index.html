@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter&family=Josefin+Sans:wght@600&family=Karla:wght@800&family=Orbitron:wght@400;800&family=Smythe&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="../index.css" />
+    </head>
+    <body>
+        <nav>
+            <a href="/" aria-current="page">Home</a>
+            <a target="_blank" href="https://www.linkedin.com/"
+              >linkedin Profile</a
+            >
+          </nav>
+        <header class="background">               
+            <p class="para1">Jimmy’s Diner</p>
+            <p class="para2">The best burgers and pizzas in town.</p>
+        </header>
+        <div id="element"></div>
+            <section class="checkout" id="checkout">
+                <p class="order-heading">Your order</p>
+                <div id="cartList"></div>
+                <hr class="divi">
+                <div class="flex1">
+                    <p class="add-el">Total price:</p>
+                    <p class="add-pr" id="add-pr"></p>
+                </div>
+                <button class="btn" id="completeBtn">Complete order</button>
+            </section>
+        <section class="card" id="card">
+            <p class="card-heading">Enter card details</p>
+            <form class="form" id="form" >
+                <input type="text" name="card-name" placeholder="Enter your name" required>
+                <input type="number" name="card-number" placeholder="Enter your card Number" required>
+                <input type="text"  name="card-cv" placeholder="Enter your CV" required>
+                <button class="btn-pay" id="btn-pay" type="submit">pay
+                </button>
+            </form>
+        </section>
+        <div id="renderMessege">
+            <!-- render messege here -->
+        </div>
+
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
